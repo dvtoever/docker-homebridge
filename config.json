@@ -1,0 +1,21 @@
+{
+    "bridge": {
+        "name": "Docker Homebridge",
+        "username": "CC:22:3D:E3:CE:40",
+        "port": 51900,
+        "pin": "031-45-155",
+        "manufacturer": "dvtoever",
+        "model": "Homebridge",
+        "serialNumber": "0.4.16"
+    },
+    
+    "description": "Homebridge image with raspberry pi arm7 hdmi cec support",
+
+    "accessories": [
+        {
+            "accessory": "CEC",
+            "name": "Television"
+        }
+    ]
+
+}
